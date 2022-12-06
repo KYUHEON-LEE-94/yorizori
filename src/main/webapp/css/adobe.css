@@ -1,0 +1,261 @@
+@import url(./reset.css);
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(216, 74, 237, 1) 0%, rgba(255, 120, 60, 1) 39%, rgba(252, 96, 68, 1) 64%, rgba(254, 220, 199, 1) 100%);
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+header {
+    height: 70px;
+    background: #FFF;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+
+h1 {
+    line-height: 70px;
+    padding-left: 3rem;
+}
+
+
+main {
+    width: 768px;
+    height: 572px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+    top: 17%;
+    text-align: center;
+
+}
+
+.toparea {
+    position: absolute;
+    top: 0
+}
+
+.bottomarea {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+main p {
+    font-size: 24px;
+    color: #fff;
+    margin: 2rem 0;
+}
+
+
+video {
+    border: 3px solid #fff;
+    display: block;
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+}
+
+.btn li {
+    display: inline-block;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.btn li a {
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.btn li:hover a {
+    background: rgba(255, 120, 60, 1);
+    color: #fff;
+}
+
+/* -------------------------------------------------- */
+.art1 {
+    width: 817px;
+    height: 630px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+h2,
+.art1 p {
+    margin: .5rem 0;
+}
+
+.art1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figcaption {
+    padding: 1rem 0;
+}
+
+.art1 ul li {
+    width: 48%;
+}
+
+.art1 ul li img {
+    width: 100%;
+}
+
+a.close {
+    position: absolute;
+    top: -70px;
+    right: 0
+}
+
+.art1 .inner {
+    display: none;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
+}
+
+.line {
+    position: absolute;
+    background: #fff;
+}
+
+span.top {
+    width: 0%;
+    height: 2px;
+    left: 0;
+    top: 0
+}
+
+span.bottom {
+    width: 0%;
+    height: 2px;
+    right: 0;
+    bottom: 0
+}
+
+span.right {
+    width: 2px;
+    height: 0%;
+    right: 0;
+    top: 0
+}
+
+span.left {
+    width: 2px;
+    height: 0%;
+    left: 0;
+    bottom: 0
+}
+
+/* Art2 */
+.art2 {
+    width: 100%;
+    height: 370px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -150px;
+
+}
+
+.art2 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.art2 .inner2 {
+    background: #fc5faf;
+    display: none;
+    padding: 15px;
+    height: 100%;
+}
+
+.art2 ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.art2 ul li {
+    width: 25%;
+    background: white;
+    border-radius: 30px;
+}
+
+.art2 ul li img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.art2 ul li figcaption {
+    font-weight: bold;
+    text-align: left;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+
+
+/* -------------------------------------------------- */
+
+aside {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-top: 1px solid #aaa;
+}
+
+footer h3 {
+    font-weight: normal;
+    margin-right: 2rem;
+}
+
+footer img {
+    width: 25px;
+}
+
+footer ul.link {
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+
+footer ul.link li {
+    margin-right: 1rem;
+}
+
+footer ul.link li img {
+    display: inline-block;
+    vertical-align: middle;
+
+}
