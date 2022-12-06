@@ -5,7 +5,12 @@
 2. JSP, Servlet을 활용함으로써 백엔드가 하는 일을 본격적으로 체험해보기
 3. JSP, Servlet을 이해함으로서 나중에 배우게될 Mybatis와 Springboot를 왜 사용해야하는 가를 알 수 있게 해줌
 
+### ERD
 [데이터 모델링](https://www.erdcloud.com/d/k2rWQmg4RzCMGrLyj)
+
+### 사용된 스킬  
+프론트 엔드: 부트스트랩  
+백엔드: JSP, Servlet, JDBC
 
 ## 기능
 기능 번호|주요 기능|설명|
